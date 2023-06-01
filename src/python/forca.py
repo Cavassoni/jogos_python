@@ -208,6 +208,10 @@ def pede_chute(letras_acertadas, palavra_secreta):
         print("Você deve digitar apenas letras!")
         return pede_chute(letras_acertadas, palavra_secreta)
 
+    if not chute.isalpha():
+        print("Você deve digitar apenas letras!")
+        return pede_chute(letras_acertadas, palavra_secreta)
+
     return chute
 
 
