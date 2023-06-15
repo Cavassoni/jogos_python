@@ -220,7 +220,7 @@ def inicializa_letras_acertadas(palavra_secreta):
 
 
 def carrega_palavra_secreta_arquivo():
-    arquivo = open("/home/cavassoni/Repositorios/cursos/jogos/src/resources/palavras.txt", "r")
+    arquivo = open("/palavras.txt", "r")
     palavras = []
     for linha in arquivo:
         palavras.append(linha.strip())
